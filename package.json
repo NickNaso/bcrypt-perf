@@ -1,0 +1,32 @@
+{
+    "name": "bcrypt-perf",
+    "description": "Performance estimation between NAN and N-API implementation",
+    "keywords": [
+      "bcrypt",
+      "password",
+      "auth",
+      "authentication",
+      "encryption",
+      "crypt",
+      "crypto",
+      "napi",
+      "nan"
+    ],
+    "main": "./index.js",
+    "version": "1.0.0",
+    "author": "Nicola Del Gobbo (https://github.com/NickNaso)",
+    "engines": {
+      "node": ">= 4.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NickNaso/bcrypt-perf.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/NickNaso/bcrypt-perf/issues"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+  }
