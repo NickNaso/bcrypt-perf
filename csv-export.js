@@ -18,3 +18,30 @@
 
 'use strict'
 
+const csv = require('csv')
+const path = require('path')
+const fs = require('fs')
+const util = require('util')
+const Error = require('verror').VError
+
+const stringify = util.promisify(csv.stringify)
+const writeFile = util.promisify(fs.writeFile)
+
+const FOLDER_TO_EXPORT = path.join(__dirname, 'results')
+
+async function csvExport(filename, data, opts) {
+    try {
+        const dataToExport = await stringify(data, opts)
+        await writeFile(path.join(FOLDER_TO_EXPORT, filename), dataToExport)
+    } catch (err) {
+        const errOpts = {
+            cause: err,
+            name: 'CSVExportError'
+        }
+        throw Error(errOpts, `Error happened exporting csv with filename: ${filename}`)
+    }
+}
+
+module.exports = {
+    csvExport
+}
