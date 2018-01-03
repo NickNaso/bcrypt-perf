@@ -28,7 +28,9 @@
   },
   "scripts": {
     "hps": "node hash-password-sync",
-    "hpa": "node hash-password-async"
+    "hpa": "node hash-password-async",
+    "cps": "node compare-password-sync",
+    "cpa": "node compare-password-async"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
