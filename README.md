@@ -29,6 +29,21 @@ time execution.
 
 ## Results
 
+### Hash password **using synchronous** api and **salt round** set to **10** 
+
+In average the N-API version of the addon is **1.74**% faster than NAN version
+
+### Hash password **using synchronous** api and **salt round** set to **11** 
+
+In average the N-API version of the addon is 1.74% faster than NAN version
+
+### Hash password **using asynchronous** api and **salt round** set to **10** 
+
+In average the N-API version of the addon is 1.74% faster than NAN version
+
+### Hash password **using asynchronous** api and **salt round** set to **11** 
+
+In average the N-API version of the addon is 1.74% faster than NAN version
 
 ## The Team
 
