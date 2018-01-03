@@ -6,6 +6,17 @@ Recently I worked on the porting of bcrypt for Node.js to the new **N-API** and
 now I created this repository to do some experiments to estimate the performance
 against the previous version impelented with **NAN**.
 
+## Environment
+
+- Node.js Version **8.9.3**
+
+- OS: macOS - High Sierra 
+
+- MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)
+
+- CPU 2,9 GHz Intel Core i5
+
+- Memory 16 GB 2133 MHz LPDDR3
 
 
 ## The Team
