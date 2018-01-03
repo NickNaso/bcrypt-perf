@@ -61,6 +61,10 @@ In average the N-API version of the addon is **1.73**% faster than NAN version
 
 In average the N-API version of the addon is **1.33**% faster than NAN version
 
+## Resources
+
+You can find all raw data deriving from my work on the folder **[results](/results)** 
+
 ## The Team
 
 ### Nicola Del Gobbo
