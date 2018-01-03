@@ -23,13 +23,13 @@ against the previous version impelented with **NAN**.
 I created two main experiments one where I used bcrypt to hash a password with 
 ```salt round``` parameter set to **10** and **11**, and another where I used 
 bcrypt to compare password. Obviously I executed this for both synchronous and 
-asynchronous api that bcrypt expose. Eacher task was repeated 1000 times and than
+asynchronous api that bcrypt expose. Eacher task was repeated **1000** times and than
 I considered as result to compare the NAN and N-API version the avarage of the 
 time execution.  
 
 ## Results
 
-### Hash password **using synchronous** api and **salt round** set to **10** 
+#### Hash password **using synchronous** api and **salt round** set to **10** 
 
 In average the N-API version of the addon is **1.74**% faster than NAN version
 
