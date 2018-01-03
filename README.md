@@ -2,6 +2,11 @@
 
 ## Performance estimation between NAN and N-API implementation
 
+Recently I worked on the porting of bcrypt for Node.js to the new **N-API** and 
+now I created this repository to do some experiments to estimate the performance
+against the previous version impelented with **NAN**.
+
+
 
 ## The Team
 
