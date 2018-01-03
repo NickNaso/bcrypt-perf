@@ -27,7 +27,8 @@
     "url": "https://github.com/NickNaso/bcrypt-perf/issues"
   },
   "scripts": {
-    "hps": "node hash-password-sync"
+    "hps": "node hash-password-sync",
+    "hpa": "node hash-password-async"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
