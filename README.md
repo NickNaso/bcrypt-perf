@@ -10,13 +10,13 @@ against the previous version impelented with **NAN**.
 
 - Node.js Version **8.9.3**
 
-- OS: macOS - High Sierra 
+- OS **macOS** - High Sierra (10.13.2)
 
-- MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)
+- **MacBook Pro** (13-inch, 2016, Four Thunderbolt 3 Ports)
 
-- CPU 2,9 GHz Intel Core i5
+- CPU **2,9 GHz** Intel Core i5
 
-- Memory 16 GB 2133 MHz LPDDR3
+- Memory **16 GB** 2133 MHz LPDDR3
 
 
 ## The Team
