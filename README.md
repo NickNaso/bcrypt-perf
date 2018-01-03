@@ -18,6 +18,17 @@ against the previous version impelented with **NAN**.
 
 - Memory **16 GB** 2133 MHz LPDDR3
 
+## Experiments
+
+I created two main experiments one where I used bcrypt to hash a password with 
+```salt round``` parameter set to **10** and **11**, and another where I used 
+bcrypt to compare password. Obviously I executed this for both synchronous and 
+asynchronous api that bcrypt expose. Eacher task was repeated 1000 times and than
+I considered as result to compare the NAN and N-API version the avarage of the 
+time execution.  
+
+## Results
+
 
 ## The Team
 
