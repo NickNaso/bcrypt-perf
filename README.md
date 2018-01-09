@@ -65,6 +65,11 @@ In average the N-API version of the addon is **1.33**% faster than NAN version
 
 You can find all raw data deriving from my work on the folder **[results](/results)** 
 
+## Web application
+
+Added little and simple web application and test performance with **autocannon**
+the reuslts are very similiar between the bcrypt implemented with N-API and NAN.
+
 ## The Team
 
 ### Nicola Del Gobbo
